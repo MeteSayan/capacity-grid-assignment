@@ -45,3 +45,10 @@ tbody tr:nth-child(even) td:not(.over-capacity), tbody tr:nth-child(even) th { b
   th:first-child { min-width: 150px; max-width: 180px; }
   th, td { padding: 0.75rem; }
 }
+fieldset.range-controls { border: 0; margin: 0; padding: 0; min-width: 0; }
+.capacity-editor { background: white; border: 1px solid #aebcc9; border-radius: 8px; padding: 1rem; margin-bottom: 1.25rem; }
+.capacity-editor p { font-size: 0.85rem; }
+.capacity-editor label { display: inline-flex; align-items: center; gap: 0.5rem; flex-wrap: wrap; }
+.capacity-editor input { width: 8rem; }
+.capacity-editor button { margin-left: 0.5rem; }
+.edit-capacity { display: block; margin-top: 0.35rem; padding: 0.25rem 0.5rem; font-size: 0.75rem; }
